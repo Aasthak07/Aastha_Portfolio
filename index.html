@@ -32,33 +32,34 @@
     <!-- Background Video -->
     <video class="fixed top-0 left-0 w-full h-full object-cover -z-10" src="blossom video.mp4" autoplay loop muted playsinline></video>
     <section>
-      <div class="relative container mx-auto grid grid-cols-1 md:grid-cols-12 h-screen">
-        <!--
-        <div class="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
-          <div class="w-11/12 md:w-4/5 h-5/6 rounded-3xl bg-gradient-to-tr from-pink-200 via-white to-pink-400 shadow-2xl opacity-80 blur-sm"></div>
-        </div>
-        -->
+      <div class="relative container mx-auto grid grid-cols-1 md:grid-cols-12 h-screen px-6">
         <div class="md:col-span-8 my-auto space-y-6 order-last md:order-first relative z-10">
-          <h1 id="typewriter" class="name text-8xl"></h1>
-          <p class="subtitle text-xl ml-3  text-cyan-200 font-bold">
-        MERN STACK WEB DEVELOPER | DSA ENTHUSIAST | PROJECT MANAGEMENT
+          <h1 id="typewriter" class="name text-6xl md:text-8xl"></h1>
+          <p class="subtitle text-xl text-cyan-200 font-bold">
+            MERN STACK WEB DEVELOPER | DSA ENTHUSIAST | SIH 2024 & 2025 WINNER
           </p>
-          <p class="text-gray-600 ml-3 mt-4 text-yellow-200">
-       I bring digital ideas to life with thoughtful design, clean code, and a touch of creativity. 
-       Let’s build something beautiful — one pixel and one logic at a time.
-   </p>
-          <div class="flex gap-4 ml-3 w-full mt-6 w-full">
-            <button class="bg-pink-500 text-white px-6 py-3 rounded-full"><i class="fa-solid fa-briefcase fa-beat-fade"></i> View My work</button>
-            <br />
-            <button class="bg-pink-500 text-white px-6 py-3 rounded-full"><i class="fa-solid fa-envelope fa-beat-fade"></i> Get In Touch</button>
+          <p class="text-gray-200 max-w-xl">
+            I bring digital ideas to life with thoughtful design, clean code, and a touch of creativity. 
+            Full Stack Developer specializing in the MERN stack with a passion for AI and problem-solving.
+          </p>
+          <div class="flex flex-wrap gap-4 mt-6">
+            <a href="#projects" class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 inline-block">
+              <i class="fa-solid fa-briefcase fa-beat-fade mr-2"></i> View My Work
+            </a>
+            <a href="Aaastha's CV.pdf" download class="bg-transparent border-2 border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 inline-block font-semibold">
+              <i class="fa-solid fa-download fa-arrow-down mr-2"></i> Download Resume
+            </a>
           </div>
         </div>
 
-        <div class="md:col-span-4 my-auto relative z-10">
-          <img class="avatar rounded-full"
-            src="portfolio photo.jpg"
-            alt="ANYA"
-          />
+        <div class="md:col-span-4 my-auto relative z-10 flex justify-center">
+          <div class="relative group">
+            <div class="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <img class="avatar rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-pink-200 shadow-xl"
+              src="portfolio photo.jpg"
+              alt="Aastha Kumari"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -66,172 +67,294 @@
     <!-- section 2  -->
 
 
-    <section class="bg-gray-100">
-        <div class="container mx-auto text-center px-6 py-20">
-            <h3 class="text-2xl font-bold">My Skills</h3>
-            <h5 class="text-md font-bold text-gray-400">Lorem ipsum dolor sit amet.</h5>
-            <div class="mt-10 grid grid-cols-1 md:grid-cols-4 gap-10">
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-orange-600 hover:text-white duration-300">
-                    <div class="p-4 bg-orange-100 rounded-lg w-fit mx-auto">
+    <section class="bg-gray-50 py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-800">My Expertise</h3>
+                <div class="w-20 h-1 bg-pink-500 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Languages -->
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-brands fa-js fa-2x text-pink-600"></i>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2">JavaScript</h4>
+                    <p class="text-gray-500 text-sm">Interactive Web Logic</p>
+                </div>
+
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-brands fa-react fa-2x text-blue-600"></i>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2">React.js</h4>
+                    <p class="text-gray-500 text-sm">Dynamic UI components</p>
+                </div>
+
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-brands fa-node-js fa-2x text-green-600"></i>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2">Node.js</h4>
+                    <p class="text-gray-500 text-sm">Scalable backend services</p>
+                </div>
+
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-brands fa-python fa-2x text-yellow-600"></i>
+                    </div>
+                    <h4 class="font-bold text-xl mb-2">Python</h4>
+                    <p class="text-gray-500 text-sm">API & Data Analysis</p>
+                </div>
+
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fa-brands fa-html5 fa-2x text-orange-600"></i>
                     </div>
-                    <h3 class="font-bold text-2xl mt-4">HTML</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
+                    <h4 class="font-bold text-xl mb-2">HTML/CSS</h4>
+                    <p class="text-gray-500 text-sm">Modern semantic layouts</p>
                 </div>
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-violet-800 hover:text-white duration-300">
-                    <div class="p-4 bg-violet-100 rounded-lg w-fit mx-auto">
-                        <i class="fa-brands fa-react fa-2x text-violet-800"></i>
+
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-solid fa-database fa-2x text-indigo-600"></i>
                     </div>
-                    <h3 class="font-bold text-2xl mt-4">React JS</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
+                    <h4 class="font-bold text-xl mb-2">MongoDB/SQL</h4>
+                    <p class="text-gray-500 text-sm">Robust data management</p>
                 </div>
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-violet-800 hover:text-white duration-300">
-                    <div class="p-4 bg-violet-100 rounded-lg w-fit mx-auto">
-                        <i class="fa-brands fa-react fa-2x text-violet-800"></i>
+
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-brands fa-css3-alt fa-2x text-cyan-600"></i>
                     </div>
-                    <h3 class="font-bold text-2xl mt-4">React JS</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
+                    <h4 class="font-bold text-xl mb-2">Tailwind CSS</h4>
+                    <p class="text-gray-500 text-sm">Fast UI styling</p>
                 </div>
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-violet-800 hover:text-white duration-300">
-                    <div class="p-4 bg-violet-100 rounded-lg w-fit mx-auto">
-                        <i class="fa-brands fa-react fa-2x text-violet-800"></i>
+
+                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fa-brands fa-git-alt fa-2x text-gray-800"></i>
                     </div>
-                    <h3 class="font-bold text-2xl mt-4">React JS</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
-                </div>
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-violet-800 hover:text-white duration-300">
-                    <div class="p-4 bg-violet-100 rounded-lg w-fit mx-auto">
-                        <i class="fa-brands fa-react fa-2x text-violet-800"></i>
-                    </div>
-                    <h3 class="font-bold text-2xl mt-4">React JS</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
-                </div>
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-violet-800 hover:text-white duration-300">
-                    <div class="p-4 bg-violet-100 rounded-lg w-fit mx-auto">
-                        <i class="fa-brands fa-react fa-2x text-violet-800"></i>
-                    </div>
-                    <h3 class="font-bold text-2xl mt-4">React JS</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
-                </div>
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-violet-800 hover:text-white duration-300">
-                    <div class="p-4 bg-violet-100 rounded-lg w-fit mx-auto">
-                        <i class="fa-brands fa-react fa-2x text-violet-800"></i>
-                    </div>
-                    <h3 class="font-bold text-2xl mt-4">React JS</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
-                </div>
-                <div
-                    class="technology rounded-xl shadow-lg p-10 bg-white hover:-translate-y-3 hover:bg-violet-800 hover:text-white duration-300">
-                    <div class="p-4 bg-violet-100 rounded-lg w-fit mx-auto">
-                        <i class="fa-brands fa-react fa-2x text-violet-800"></i>
-                    </div>
-                    <h3 class="font-bold text-2xl mt-4">React JS</h3>
-                    <p class="text-lg">5+ years of React js Experience</p>
+                    <h4 class="font-bold text-xl mb-2">Git/GitHub</h4>
+                    <p class="text-gray-500 text-sm">Version control workflow</p>
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section class="bg-gray-50">
-        <div class="container mx-auto  px-6 py-20">
-            <h3 class="text-2xl font-bold text-center">Featured Projects</h3>
-            <h5 class="text-md font-bold text-gray-400 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing
-                elit. Vitae,
-                vero.</h5>
-            <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-10">
-                <div class="technology1 rounded-xl shadow-lg bg-white hover:-translate-y-3 duration-300">
-                    <img class="rounded-t-xl h-52 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
-                        alt="">
-                    <div class="p-10 space-y-6">
-                        <div class="flex items-center justify-between">
-                            <h4 class="text-2xl font-bold">Ecommerce Website</h4>
-                            <p class="px-3 py-1 rounded-full bg-violet-100 text-violet-800">Web App</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem, repellat laboriosam
-                            recusandae quo odit eius explicabo cum atque optio!</p>
-                        <div class="flex gap-3 flex-wrap">
+    <section id="projects" class="bg-gray-100 py-32">
+        <div class="container mx-auto px-6 max-w-5xl">
+            <div class="text-center mb-20">
+                <h3 class="text-3xl font-bold text-gray-800">Featured Projects</h3>
+                <div class="w-16 h-1 bg-pink-500 mx-auto mt-3"></div>
+            </div>
 
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">React JS</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">MongoDB</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">Express JS</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">Node JS</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-32">
+                <!-- ExtendEase -->
+                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
+                    <div class="h-48 overflow-hidden">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            src="extendease.png"
+                            alt="ExtendEase">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <h4 class="text-xl font-bold text-gray-800">ExtendEase</h4>
+                            <span class="px-2 py-0.5 rounded-full bg-pink-100 text-pink-600 text-[10px] font-semibold uppercase tracking-wider">Full Stack</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                            A VS Code extension management platform supporting 50+ extensions with admin dashboard and email approval workflows.
+                        </p>
+                        <div class="flex gap-2 flex-wrap mb-4">
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Next.js</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Express.js</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">MongoDB</span>
+                        </div>
+                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                                View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="technology1 rounded-xl shadow-lg bg-white hover:-translate-y-3 duration-300">
-                    <img class="rounded-t-xl h-52 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
-                        alt="">
-                    <div class="p-10 space-y-6">
-                        <div class="flex items-center justify-between">
-                            <h4 class="text-2xl font-bold">Ecommerce Website</h4>
-                            <p class="px-3 py-1 rounded-full bg-violet-100 text-violet-800">Web App</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem, repellat laboriosam
-                            recusandae quo odit eius explicabo cum atque optio!</p>
-                        <div class="flex gap-3 flex-wrap">
 
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">React JS</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">MongoDB</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">Express JS</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">Node JS</p>
+                <!-- QuillStack-AI -->
+                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
+                    <div class="h-48 overflow-hidden">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            src="quillstack_ai.png"
+                            alt="QuillStack-AI">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <h4 class="text-xl font-bold text-gray-800">QuillStack-AI</h4>
+                            <span class="px-2 py-0.5 rounded-full bg-pink-100 text-pink-600 text-[10px] font-semibold uppercase tracking-wider">AI Platform</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                            An AI-powered documentation platform that converts uploaded codebases into structured technical documentation using Gemini API.
+                        </p>
+                        <div class="flex gap-2 flex-wrap mb-4">
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Next.js</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">MongoDB</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Gemini API</span>
+                        </div>
+                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                                View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="technology1 rounded-xl shadow-lg bg-white hover:-translate-y-3 duration-300">
-                    <img class="rounded-t-xl h-52 w-full object-cover"
-                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
-                        alt="">
-                    <div class="p-10 space-y-6">
-                        <div class="flex items-center justify-between">
-                            <h4 class="text-2xl font-bold">Ecommerce Website</h4>
-                            <p class="px-3 py-1 rounded-full bg-violet-100 text-violet-800">Web App</p>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rem, repellat laboriosam
-                            recusandae quo odit eius explicabo cum atque optio!</p>
-                        <div class="flex gap-3 flex-wrap">
 
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">React JS</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">MongoDB</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">Express JS</p>
-                            <p class="px-3 py-1 rounded-full bg-gray-100 text-xs">Node JS</p>
+                <!-- DigitalCardMaker -->
+                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
+                    <div class="h-48 overflow-hidden">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            src="digital_card_maker.png"
+                            alt="DigitalCardMaker">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <h4 class="text-xl font-bold text-gray-800">DigitalCardMaker</h4>
+                            <span class="px-2 py-0.5 rounded-full bg-green-100 text-green-600 text-[10px] font-semibold uppercase tracking-wider">Web App</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                            Responsive web application to create, preview, and download custom Birthday, Wedding, or Business cards as PNG or PDF.
+                        </p>
+                        <div class="flex gap-2 flex-wrap mb-4">
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">HTML5</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">CSS3</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">JavaScript</span>
+                        </div>
+                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                                View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Playstore Analysis -->
+                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
+                    <div class="h-48 overflow-hidden">
+                        <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                            src="market_analysis.png"
+                            alt="Google Playstore Analysis">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-3">
+                            <h4 class="text-xl font-bold text-gray-800">Market Analysis</h4>
+                            <span class="px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-600 text-[10px] font-semibold uppercase tracking-wider">Analysis</span>
+                        </div>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                            Exploratory data analysis on 10,000+ Google Play Store apps using Python and Pandas to understand market trends.
+                        </p>
+                        <div class="flex gap-2 flex-wrap mb-4">
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Python</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Pandas</span>
+                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Jupyter</span>
+                        </div>
+                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                                View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </section>
 
-       <section id="contact" class="py-20 var-bg-primary section-content">
+    <!-- Experience & Education -->
+    <section class="bg-gray-50 py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                <!-- Experience -->
+                <div>
+                    <h3 class="text-3xl font-bold mb-10 text-gray-800 border-l-4 border-pink-500 pl-4">Work Experience</h3>
+                    <div class="space-y-10">
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                            <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
+                            <h4 class="text-xl font-bold text-gray-800">Digipodium (MERN Stack)</h4>
+                            <p class="text-pink-500 font-semibold mb-2">Full Stack Developer Intern | Feb 2025 - Oct 2025</p>
+                            <p class="text-gray-600">Built a VS Code extension management platform supporting 50+ extensions. Designed an admin dashboard with email-based approval workflows using Next.js, Express, and MongoDB.</p>
+                        </div>
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                            <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
+                            <h4 class="text-xl font-bold text-gray-800">Kalam Pragati Skill Program</h4>
+                            <p class="text-pink-500 font-semibold mb-2">Innovation & Design Thinking | 2025</p>
+                            <p class="text-gray-600">Designed a cost-effective semi-automatic solar panel cleaning system. Trained in UI/UX prototyping (Figma) and 3D modeling.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div>
+                    <h3 class="text-3xl font-bold mb-10 text-gray-800 border-l-4 border-pink-500 pl-4">Education</h3>
+                    <div class="space-y-10">
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                            <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
+                            <h4 class="text-xl font-bold text-gray-800">B.Tech in Information Technology</h4>
+                            <p class="text-pink-500 font-semibold mb-2">Dr. APJ Abdul Kalam University | 2022 - 2026</p>
+                            <p class="text-gray-600 text-sm">CGPA: 8.88/10 | Hons. in Cyber Security</p>
+                        </div>
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                            <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
+                            <h4 class="text-xl font-bold text-gray-800">Intermediate & High School</h4>
+                            <p class="text-pink-500 font-semibold mb-2">New Way Senior Secondary School</p>
+                            <p class="text-gray-600 text-sm">Grade: 80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="bg-gray-100 py-20">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h3 class="text-4xl font-bold text-gray-800">Achievements</h3>
+                <div class="w-20 h-1 bg-pink-500 mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-pink-500 transition-all hover:scale-105">
+                    <div class="text-pink-500 mb-4"><i class="fa-solid fa-trophy fa-3x"></i></div>
+                    <h4 class="text-xl font-bold mb-2">SIH 1st Position</h4>
+                    <p class="text-gray-600 text-sm">Achieved 1st position in the Internal Smart India Hackathon for two consecutive years (2024, 2025).</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-pink-500 transition-all hover:scale-105">
+                    <div class="text-pink-500 mb-4"><i class="fa-solid fa-medal fa-3x"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Think Tank Winner</h4>
+                    <p class="text-gray-600 text-sm">Secured 2nd position in the Think Tank competition during the College Technical Fest (2022, 2023).</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-pink-500 transition-all hover:scale-105">
+                    <div class="text-pink-500 mb-4"><i class="fa-solid fa-graduation-cap fa-3x"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Academic Excellence</h4>
+                    <p class="text-gray-600 text-sm">Ranked consistently among the top 2 students in the B.Tech program across all years.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="contact" class="py-20 var-bg-primary section-content">
             <div class="container mx-auto px-4 md:px-8 text-center max-w-2xl">
                 <h2 class="text-4xl font-bold mb-10 var-text-accent section-title text-white">Let's Connect</h2>
                 <p class="text-lg var-text-secondary mb-8 max-w-2xl mx-auto section-text text-white">
                     Have a project in mind or just want to chat about tech? Feel free to reach out. I'm always open to new opportunities and collaborations.
                 </p>
-                <a href="mailto:your.email@example.com" class="inline-block bg-pink-500 text-black hover:var-bg-accent-dark px-8 py-4 rounded-full text-lg font-semibold transition duration-300 shadow-md transform hover:-translate-y-1 contact-button-anim border border-white border-opacity-60"><i class="fa-solid fa-at"></i>
-                    Send an Email
+                <a href="mailto:aasthaak26@gmail.com" class="inline-block bg-pink-500 text-white hover:bg-pink-600 px-8 py-4 rounded-full text-lg font-semibold transition duration-300 shadow-xl transform hover:-translate-y-1 border-2 border-white/20 backdrop-blur-sm">
+                    <i class="fa-solid fa-at mr-2"></i> Send an Email
                 </a>
-                <div class="flex justify-center space-x-6 mt-10 social-icons-anim bg-pink-500 bg-opacity-80 rounded-xl shadow-md p-4 border border-pink-200 backdrop-blur-sm w-64 mx-auto">
-                    <a href="#" class="group relative var-text-secondary hover:var-text-accent transform hover:scale-110 transition-transform duration-300" aria-label="LinkedIn Profile">
-                        <span class="absolute -top-7 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-pink-500 text-white text-xs rounded px-2 py-1 transition-opacity duration-200">LinkedIn</span>
+                <div class="flex justify-center space-x-6 mt-10 p-4 bg-white/10 rounded-2xl border border-white/20 backdrop-blur-md w-72 mx-auto">
+                    <a href="https://www.linkedin.com/in/aastha-kumari071" target="_blank" class="text-white hover:text-pink-300 transform hover:scale-125 transition-all duration-300" aria-label="LinkedIn Profile">
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
-                    <a href="#" class="group relative var-text-secondary hover:var-text-accent transform hover:scale-110 transition-transform duration-300" aria-label="GitHub Profile">
-                        <span class="absolute -top-7 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-pink-500 text-white text-xs rounded px-2 py-1 transition-opacity duration-200">GitHub</span>
+                    <a href="https://github.com/Aasthak07" target="_blank" class="text-white hover:text-pink-300 transform hover:scale-125 transition-all duration-300" aria-label="GitHub Profile">
                         <i class="fab fa-github fa-2x"></i>
                     </a>
-                    <a href="#" class="group relative var-text-secondary hover:var-text-accent transform hover:scale-110 transition-transform duration-300" aria-label="Twitter Profile">
-                        <span class="absolute -top-7 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 bg-pink-500 text-white text-xs rounded px-2 py-1 transition-opacity duration-200">Twitter</span>
+                    <a href="#" class="text-white hover:text-pink-300 transform hover:scale-125 transition-all duration-300" aria-label="Twitter Profile">
                         <i class="fab fa-twitter fa-2x"></i>
                     </a>
                 </div>
@@ -241,53 +364,37 @@
 
     <script>
         // Typewriter effect for h1
-        const typewriterText = "Hello, I'm Aastha Kumari";
+        const typewriterText = "Hi, I'm Aastha Kumari";
         const typewriterElem = document.getElementById('typewriter');
         let i = 0;
         function typeWriter() {
           if (i < typewriterText.length) {
             typewriterElem.innerHTML += typewriterText.charAt(i);
             i++;
-            setTimeout(typeWriter, 80);
+            setTimeout(typeWriter, 100);
           }
         }
         typeWriter();
 
-        ScrollReveal().reveal('.name', {
-            delay: 300,
-            duration: 2000,
-            origin: 'left',
-            distance: '50px',
-            scale: 1.2
-        });
-    
-        ScrollReveal().reveal('.subtitle', {
-            delay: 300,
-            duration: 2000,
+        // ScrollReveal Configuration
+        const sr = ScrollReveal({
             origin: 'bottom',
-            distance: '50px',
-        });
-    
-        ScrollReveal().reveal('.avatar', {
-            delay: 300,
+            distance: '60px',
             duration: 2000,
-            origin: 'right',
-            distance: '50px',
-            scale: 1.2
+            delay: 200,
+            // reset: true // Animations repeat on scroll
         });
 
-        ScrollReveal().reveal('.technology', {
-            delay: 300,
-            distance: '50px',
-            origin: 'bottom',
-            interval: 300
-        });
-        ScrollReveal().reveal('.technology1', {
-            delay: 300,
-            distance: '50px',
-            origin: 'bottom',
-            interval: 300
-        });
+        sr.reveal('.name');
+        sr.reveal('.subtitle', { delay: 400 });
+        sr.reveal('.avatar', { origin: 'right', delay: 400 });
+        
+        sr.reveal('.technology', { interval: 100 });
+        sr.reveal('.technology1', { interval: 200 });
+        
+        sr.reveal('section h3', { origin: 'left', distance: '30px' });
+        sr.reveal('.relative.pl-8', { interval: 200 }); // Experience & Education items
+        sr.reveal('.bg-white.p-8.rounded-2xl', { interval: 100 }); // Achievements
     </script>
   </body>
 </html>
