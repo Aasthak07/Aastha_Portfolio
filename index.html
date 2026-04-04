@@ -29,33 +29,36 @@
     </style>
   </head>
   <body>
-    <!-- Background Video -->
-    <video class="fixed top-0 left-0 w-full h-full object-cover -z-10" src="blossom video.mp4" autoplay loop muted playsinline></video>
-    <section>
-      <div class="relative container mx-auto grid grid-cols-1 md:grid-cols-12 h-screen px-6">
-        <div class="md:col-span-8 my-auto space-y-6 order-last md:order-first relative z-10">
-          <h1 id="typewriter" class="name text-6xl md:text-8xl"></h1>
-          <p class="subtitle text-xl text-cyan-200 font-bold">
-            MERN STACK WEB DEVELOPER | DSA ENTHUSIAST | SIH 2024 & 2025 WINNER
+    <!-- Background Video with dark overlay for readability -->
+    <div class="fixed top-0 left-0 w-full h-full -z-20">
+      <video class="w-full h-full object-cover" src="blossom video.mp4" autoplay loop muted playsinline></video>
+      <div class="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
+    </div>
+    <section class="relative z-10">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-12 h-screen px-6">
+        <div class="md:col-span-8 my-auto space-y-6 order-last md:order-first">
+          <h1 id="typewriter" class="name text-6xl md:text-8xl drop-shadow-lg"></h1>
+          <p class="subtitle text-xl text-cyan-300 font-bold drop-shadow-md">
+            MERN STACK WEB DEVELOPER | DSA ENTHUSIAST | SDET
           </p>
-          <p class="text-gray-200 max-w-xl">
+          <p class="text-white/90 max-w-xl text-lg leading-relaxed drop-shadow-sm font-medium">
             I bring digital ideas to life with thoughtful design, clean code, and a touch of creativity. 
-            Full Stack Developer specializing in the MERN stack with a passion for AI and problem-solving.
+            Full Stack Developer specializing in the MERN stack with a passion for SDET and problem-solving.
           </p>
-          <div class="flex flex-wrap gap-4 mt-6">
-            <a href="#projects" class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 inline-block">
-              <i class="fa-solid fa-briefcase fa-beat-fade mr-2"></i> View My Work
+          <div class="flex flex-wrap gap-4 mt-8">
+            <a href="#projects" class="bg-pink-500 hover:bg-pink-600 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 inline-block shadow-lg font-bold">
+              <i class="fa-solid fa-briefcase mr-2"></i> View My Work
             </a>
-            <a href="Aaastha's CV.pdf" download class="bg-transparent border-2 border-pink-500 text-pink-500 hover:bg-pink-500 hover:text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 inline-block font-semibold">
-              <i class="fa-solid fa-download fa-arrow-down mr-2"></i> Download Resume
+            <a href="Aaastha's CV.pdf" download class="bg-white/10 backdrop-blur-md border-2 border-white/30 text-white hover:bg-white/20 px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 inline-block font-bold">
+              <i class="fa-solid fa-download mr-2"></i> Download Resume
             </a>
           </div>
         </div>
 
-        <div class="md:col-span-4 my-auto relative z-10 flex justify-center">
+        <div class="md:col-span-4 my-auto flex justify-center">
           <div class="relative group">
-            <div class="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-            <img class="avatar rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-pink-200 shadow-xl"
+            <div class="absolute -inset-1 bg-gradient-to-r from-pink-500 to-cyan-500 rounded-full blur opacity-40 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+            <img class="avatar rounded-full w-64 h-64 md:w-80 md:h-80 object-cover border-4 border-white/20 shadow-2xl relative z-10"
               src="portfolio photo.jpg"
               alt="Aastha Kumari"
             />
@@ -67,112 +70,113 @@
     <!-- section 2  -->
 
 
-    <section class="bg-gray-50 py-20">
+    <section class="relative z-10 py-32">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h3 class="text-4xl font-bold text-gray-800">My Expertise</h3>
+                <h3 class="text-4xl font-bold text-white drop-shadow-md">My Expertise</h3>
                 <div class="w-20 h-1 bg-pink-500 mx-auto mt-4"></div>
             </div>
             
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
                 <!-- Languages -->
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-brands fa-js fa-2x text-pink-600"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-pink-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-pink-500/30">
+                        <i class="fa-brands fa-js fa-2x text-pink-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">JavaScript</h4>
-                    <p class="text-gray-500 text-sm">Interactive Web Logic</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">JavaScript</h4>
+                    <p class="text-white/60 text-sm">Interactive Web Logic</p>
                 </div>
 
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-brands fa-react fa-2x text-blue-600"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-blue-500/30">
+                        <i class="fa-brands fa-react fa-2x text-blue-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">React.js</h4>
-                    <p class="text-gray-500 text-sm">Dynamic UI components</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">React.js</h4>
+                    <p class="text-white/60 text-sm">Dynamic UI components</p>
                 </div>
 
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-brands fa-node-js fa-2x text-green-600"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-green-500/30">
+                        <i class="fa-brands fa-node-js fa-2x text-green-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">Node.js</h4>
-                    <p class="text-gray-500 text-sm">Scalable backend services</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">Node.js</h4>
+                    <p class="text-white/60 text-sm">Scalable backend services</p>
                 </div>
 
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-brands fa-python fa-2x text-yellow-600"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-yellow-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-yellow-500/30">
+                        <i class="fa-brands fa-python fa-2x text-yellow-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">Python</h4>
-                    <p class="text-gray-500 text-sm">API & Data Analysis</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">Python</h4>
+                    <p class="text-white/60 text-sm">API & Data Analysis</p>
                 </div>
 
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-brands fa-html5 fa-2x text-orange-600"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-orange-500/30">
+                        <i class="fa-brands fa-html5 fa-2x text-orange-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">HTML/CSS</h4>
-                    <p class="text-gray-500 text-sm">Modern semantic layouts</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">HTML/CSS</h4>
+                    <p class="text-white/60 text-sm">Modern semantic layouts</p>
                 </div>
 
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-solid fa-database fa-2x text-indigo-600"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-indigo-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-indigo-500/30">
+                        <i class="fa-solid fa-database fa-2x text-indigo-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">MongoDB/SQL</h4>
-                    <p class="text-gray-500 text-sm">Robust data management</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">MongoDB/SQL</h4>
+                    <p class="text-white/60 text-sm">Robust data management</p>
                 </div>
 
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-brands fa-css3-alt fa-2x text-cyan-600"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-cyan-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-cyan-500/30">
+                        <i class="fa-brands fa-css3-alt fa-2x text-cyan-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">Tailwind CSS</h4>
-                    <p class="text-gray-500 text-sm">Fast UI styling</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">Tailwind CSS</h4>
+                    <p class="text-white/60 text-sm">Fast UI styling</p>
                 </div>
 
-                <div class="technology bg-white p-8 rounded-2xl shadow-sm border border-pink-50 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 text-center">
-                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fa-brands fa-git-alt fa-2x text-gray-800"></i>
+                <div class="technology bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/20 hover:bg-white/20 hover:-translate-y-2 transition-all duration-300 text-center shadow-lg">
+                    <div class="w-16 h-16 bg-gray-500/20 rounded-full flex items-center justify-center mx-auto mb-6 border border-gray-500/30">
+                        <i class="fa-brands fa-git-alt fa-2x text-gray-400"></i>
                     </div>
-                    <h4 class="font-bold text-xl mb-2">Git/GitHub</h4>
-                    <p class="text-gray-500 text-sm">Version control workflow</p>
+                    <h4 class="font-bold text-xl mb-2 text-white">Git/GitHub</h4>
+                    <p class="text-white/60 text-sm">Version control workflow</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="projects" class="bg-gray-100 py-32">
-        <div class="container mx-auto px-6 max-w-5xl">
-            <div class="text-center mb-20">
-                <h3 class="text-3xl font-bold text-gray-800">Featured Projects</h3>
-                <div class="w-16 h-1 bg-pink-500 mx-auto mt-3"></div>
+    <section id="projects" class="relative z-10 py-40">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="text-center mb-24">
+                <h3 class="text-4xl font-bold text-white drop-shadow-md">Featured Projects</h3>
+                <div class="w-20 h-1 bg-pink-500 mx-auto mt-4"></div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-32">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
                 <!-- ExtendEase -->
-                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
-                    <div class="h-48 overflow-hidden">
+                <div class="technology1 group relative overflow-hidden rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 transition-all duration-500 hover:bg-white/15 hover:shadow-2xl hover:border-pink-500/50">
+                    <div class="h-48 overflow-hidden relative">
                         <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             src="extendease.png"
                             alt="ExtendEase">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <h4 class="text-xl font-bold text-gray-800">ExtendEase</h4>
-                            <span class="px-2 py-0.5 rounded-full bg-pink-100 text-pink-600 text-[10px] font-semibold uppercase tracking-wider">Full Stack</span>
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-2xl font-bold text-white">ExtendEase</h4>
+                            <span class="px-3 py-1 rounded-full bg-pink-500 text-white text-[10px] font-bold uppercase tracking-widest">Full Stack</span>
                         </div>
-                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                        <p class="text-white/70 text-sm mb-6 leading-relaxed">
                             A VS Code extension management platform supporting 50+ extensions with admin dashboard and email approval workflows.
                         </p>
-                        <div class="flex gap-2 flex-wrap mb-4">
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Next.js</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Express.js</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">MongoDB</span>
+                        <div class="flex gap-2 flex-wrap mb-6">
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">Next.js</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">Express.js</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">MongoDB</span>
                         </div>
-                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
-                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                        <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-400 font-bold hover:text-pink-300 flex items-center group/link">
                                 View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
                             </a>
                         </div>
@@ -180,27 +184,28 @@
                 </div>
 
                 <!-- QuillStack-AI -->
-                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
-                    <div class="h-48 overflow-hidden">
+                <div class="technology1 group relative overflow-hidden rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 transition-all duration-500 hover:bg-white/15 hover:shadow-2xl hover:border-pink-500/50">
+                    <div class="h-48 overflow-hidden relative">
                         <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             src="quillstack_ai.png"
                             alt="QuillStack-AI">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <h4 class="text-xl font-bold text-gray-800">QuillStack-AI</h4>
-                            <span class="px-2 py-0.5 rounded-full bg-pink-100 text-pink-600 text-[10px] font-semibold uppercase tracking-wider">AI Platform</span>
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-2xl font-bold text-white">QuillStack-AI</h4>
+                            <span class="px-3 py-1 rounded-full bg-pink-500 text-white text-[10px] font-bold uppercase tracking-widest">AI Platform</span>
                         </div>
-                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                        <p class="text-white/70 text-sm mb-6 leading-relaxed">
                             An AI-powered documentation platform that converts uploaded codebases into structured technical documentation using Gemini API.
                         </p>
-                        <div class="flex gap-2 flex-wrap mb-4">
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Next.js</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">MongoDB</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Gemini API</span>
+                        <div class="flex gap-2 flex-wrap mb-6">
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">Next.js</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">MongoDB</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">Gemini API</span>
                         </div>
-                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
-                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                        <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-400 font-bold hover:text-pink-300 flex items-center group/link">
                                 View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
                             </a>
                         </div>
@@ -208,27 +213,28 @@
                 </div>
 
                 <!-- DigitalCardMaker -->
-                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
-                    <div class="h-48 overflow-hidden">
+                <div class="technology1 group relative overflow-hidden rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 transition-all duration-500 hover:bg-white/15 hover:shadow-2xl hover:border-pink-500/50">
+                    <div class="h-48 overflow-hidden relative">
                         <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             src="digital_card_maker.png"
                             alt="DigitalCardMaker">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <h4 class="text-xl font-bold text-gray-800">DigitalCardMaker</h4>
-                            <span class="px-2 py-0.5 rounded-full bg-green-100 text-green-600 text-[10px] font-semibold uppercase tracking-wider">Web App</span>
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-2xl font-bold text-white">DigitalCardMaker</h4>
+                            <span class="px-3 py-1 rounded-full bg-green-500 text-white text-[10px] font-bold uppercase tracking-widest">Web App</span>
                         </div>
-                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                        <p class="text-white/70 text-sm mb-6 leading-relaxed">
                             Responsive web application to create, preview, and download custom Birthday, Wedding, or Business cards as PNG or PDF.
                         </p>
-                        <div class="flex gap-2 flex-wrap mb-4">
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">HTML5</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">CSS3</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">JavaScript</span>
+                        <div class="flex gap-2 flex-wrap mb-6">
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">HTML5</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">CSS3</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">JavaScript</span>
                         </div>
-                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
-                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                        <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-400 font-bold hover:text-pink-300 flex items-center group/link">
                                 View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
                             </a>
                         </div>
@@ -236,27 +242,28 @@
                 </div>
 
                 <!-- Google Playstore Analysis -->
-                <div class="technology1 group relative overflow-hidden rounded-xl shadow-lg bg-white transition-all duration-500 hover:shadow-xl">
-                    <div class="h-48 overflow-hidden">
+                <div class="technology1 group relative overflow-hidden rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 transition-all duration-500 hover:bg-white/15 hover:shadow-2xl hover:border-pink-500/50">
+                    <div class="h-48 overflow-hidden relative">
                         <img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                             src="market_analysis.png"
                             alt="Google Playstore Analysis">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                     </div>
                     <div class="p-6">
-                        <div class="flex items-center justify-between mb-3">
-                            <h4 class="text-xl font-bold text-gray-800">Market Analysis</h4>
-                            <span class="px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-600 text-[10px] font-semibold uppercase tracking-wider">Analysis</span>
+                        <div class="flex items-center justify-between mb-4">
+                            <h4 class="text-2xl font-bold text-white">Market Analysis</h4>
+                            <span class="px-3 py-1 rounded-full bg-indigo-500 text-white text-[10px] font-bold uppercase tracking-widest">Analysis</span>
                         </div>
-                        <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+                        <p class="text-white/70 text-sm mb-6 leading-relaxed">
                             Exploratory data analysis on 10,000+ Google Play Store apps using Python and Pandas to understand market trends.
                         </p>
-                        <div class="flex gap-2 flex-wrap mb-4">
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Python</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Pandas</span>
-                            <span class="px-2 py-0.5 rounded-full bg-gray-100 text-gray-600 text-[10px]">Jupyter</span>
+                        <div class="flex gap-2 flex-wrap mb-6">
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">Python</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">Pandas</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-white/80 text-[10px] border border-white/20">Jupyter</span>
                         </div>
-                        <div class="pt-3 border-t border-gray-100 flex justify-between items-center">
-                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-500 text-sm font-bold hover:text-pink-600 flex items-center group/link">
+                        <div class="pt-6 border-t border-white/10 flex justify-between items-center">
+                            <a href="https://github.com/Aasthak07" target="_blank" class="text-pink-400 font-bold hover:text-pink-300 flex items-center group/link">
                                 View Project <i class="fa-solid fa-arrow-right ml-2 group-hover/link:translate-x-1 transition-transform"></i>
                             </a>
                         </div>
@@ -267,43 +274,43 @@
     </section>
 
     <!-- Experience & Education -->
-    <section class="bg-gray-50 py-20">
+    <section class="relative z-10 py-32">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
                 <!-- Experience -->
-                <div>
-                    <h3 class="text-3xl font-bold mb-10 text-gray-800 border-l-4 border-pink-500 pl-4">Work Experience</h3>
+                <div class="bg-white/5 backdrop-blur-md p-8 rounded-3xl border border-white/10 shadow-xl">
+                    <h3 class="text-3xl font-bold mb-10 text-white border-l-4 border-pink-500 pl-4">Work Experience</h3>
                     <div class="space-y-10">
-                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-500/30">
                             <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
-                            <h4 class="text-xl font-bold text-gray-800">Digipodium (MERN Stack)</h4>
-                            <p class="text-pink-500 font-semibold mb-2">Full Stack Developer Intern | Feb 2025 - Oct 2025</p>
-                            <p class="text-gray-600">Built a VS Code extension management platform supporting 50+ extensions. Designed an admin dashboard with email-based approval workflows using Next.js, Express, and MongoDB.</p>
+                            <h4 class="text-xl font-bold text-white">Digipodium (MERN Stack)</h4>
+                            <p class="text-pink-400 font-semibold mb-2">Full Stack Developer Intern | Feb 2025 - May 2025</p>
+                            <p class="text-white/70 text-sm leading-relaxed">Built a VS Code extension management platform supporting 50+ extensions. Designed an admin dashboard with email-based approval workflows using Next.js, Express, and MongoDB.</p>
                         </div>
-                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-500/30">
                             <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
-                            <h4 class="text-xl font-bold text-gray-800">Kalam Pragati Skill Program</h4>
-                            <p class="text-pink-500 font-semibold mb-2">Innovation & Design Thinking | 2025</p>
-                            <p class="text-gray-600">Designed a cost-effective semi-automatic solar panel cleaning system. Trained in UI/UX prototyping (Figma) and 3D modeling.</p>
+                            <h4 class="text-xl font-bold text-white">Kalam Pragati Skill Program</h4>
+                            <p class="text-pink-400 font-semibold mb-2">Innovation & Design Thinking | 2025</p>
+                            <p class="text-white/70 text-sm leading-relaxed">Designed a cost-effective semi-automatic solar panel cleaning system. Trained in UI/UX prototyping (Figma) and 3D modeling.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Education -->
-                <div>
-                    <h3 class="text-3xl font-bold mb-10 text-gray-800 border-l-4 border-pink-500 pl-4">Education</h3>
+                <div class="bg-white/5 backdrop-blur-md p-8 rounded-3xl border border-white/10 shadow-xl">
+                    <h3 class="text-3xl font-bold mb-10 text-white border-l-4 border-pink-500 pl-4">Education</h3>
                     <div class="space-y-10">
-                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-500/30">
                             <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
-                            <h4 class="text-xl font-bold text-gray-800">B.Tech in Information Technology</h4>
-                            <p class="text-pink-500 font-semibold mb-2">Dr. APJ Abdul Kalam University | 2022 - 2026</p>
-                            <p class="text-gray-600 text-sm">CGPA: 8.88/10 | Hons. in Cyber Security</p>
+                            <h4 class="text-xl font-bold text-white">B.Tech in Information Technology</h4>
+                            <p class="text-pink-400 font-semibold mb-2">Dr. APJ Abdul Kalam University | 2022 - 2026</p>
+                            <p class="text-white/70 text-sm font-medium">CGPA: 8.88/10 | Hons. in Cyber Security</p>
                         </div>
-                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-200">
+                        <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-2 before:w-1 before:h-full before:bg-pink-500/30">
                             <div class="absolute left-[-5px] top-1 w-3 h-3 rounded-full bg-pink-500"></div>
-                            <h4 class="text-xl font-bold text-gray-800">Intermediate & High School</h4>
-                            <p class="text-pink-500 font-semibold mb-2">New Way Senior Secondary School</p>
-                            <p class="text-gray-600 text-sm">Grade: 80%</p>
+                            <h4 class="text-xl font-bold text-white">Intermediate & High School</h4>
+                            <p class="text-pink-400 font-semibold mb-2">New Way Senior Secondary School</p>
+                            <p class="text-white/70 text-sm font-medium">Grade:80%</p>
                         </div>
                     </div>
                 </div>
@@ -312,27 +319,27 @@
     </section>
 
     <!-- Achievements -->
-    <section class="bg-gray-100 py-20">
+    <section class="relative z-10 py-32 bg-white/5">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h3 class="text-4xl font-bold text-gray-800">Achievements</h3>
+                <h3 class="text-4xl font-bold text-white drop-shadow-md">Achievements</h3>
                 <div class="w-20 h-1 bg-pink-500 mx-auto mt-4"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-pink-500 transition-all hover:scale-105">
-                    <div class="text-pink-500 mb-4"><i class="fa-solid fa-trophy fa-3x"></i></div>
-                    <h4 class="text-xl font-bold mb-2">SIH 1st Position</h4>
-                    <p class="text-gray-600 text-sm">Achieved 1st position in the Internal Smart India Hackathon for two consecutive years (2024, 2025).</p>
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20 border-b-4 border-b-pink-500 transition-all hover:-translate-y-2 hover:bg-white/20 group">
+                    <div class="text-pink-400 mb-6 group-hover:scale-110 transition-transform"><i class="fa-solid fa-trophy fa-3x"></i></div>
+                    <h4 class="text-2xl font-bold mb-3 text-white">SIH 1st Position</h4>
+                    <p class="text-white/70 text-sm leading-relaxed">Achieved 1st position in the Internal Smart India Hackathon for two consecutive years (2024, 2025).</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-pink-500 transition-all hover:scale-105">
-                    <div class="text-pink-500 mb-4"><i class="fa-solid fa-medal fa-3x"></i></div>
-                    <h4 class="text-xl font-bold mb-2">Think Tank Winner</h4>
-                    <p class="text-gray-600 text-sm">Secured 2nd position in the Think Tank competition during the College Technical Fest (2022, 2023).</p>
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20 border-b-4 border-b-pink-500 transition-all hover:-translate-y-2 hover:bg-white/20 group">
+                    <div class="text-pink-400 mb-6 group-hover:scale-110 transition-transform"><i class="fa-solid fa-medal fa-3x"></i></div>
+                    <h4 class="text-2xl font-bold mb-3 text-white">Think Tank Winner</h4>
+                    <p class="text-white/70 text-sm leading-relaxed">Secured 2nd position in the Think Tank competition during the College Technical Fest (2022, 2023).</p>
                 </div>
-                <div class="bg-white p-8 rounded-2xl shadow-sm border-b-4 border-pink-500 transition-all hover:scale-105">
-                    <div class="text-pink-500 mb-4"><i class="fa-solid fa-graduation-cap fa-3x"></i></div>
-                    <h4 class="text-xl font-bold mb-2">Academic Excellence</h4>
-                    <p class="text-gray-600 text-sm">Ranked consistently among the top 2 students in the B.Tech program across all years.</p>
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-3xl border border-white/20 border-b-4 border-b-pink-500 transition-all hover:-translate-y-2 hover:bg-white/20 group">
+                    <div class="text-pink-400 mb-6 group-hover:scale-110 transition-transform"><i class="fa-solid fa-graduation-cap fa-3x"></i></div>
+                    <h4 class="text-2xl font-bold mb-3 text-white">Academic Excellence</h4>
+                    <p class="text-white/70 text-sm leading-relaxed">Ranked consistently among the top 2 students in the B.Tech program across all years.</p>
                 </div>
             </div>
         </div>
@@ -380,21 +387,21 @@
         const sr = ScrollReveal({
             origin: 'bottom',
             distance: '60px',
-            duration: 2000,
-            delay: 200,
+            duration: 1500,
+            delay: 100,
             // reset: true // Animations repeat on scroll
         });
 
         sr.reveal('.name');
-        sr.reveal('.subtitle', { delay: 400 });
-        sr.reveal('.avatar', { origin: 'right', delay: 400 });
+        sr.reveal('.subtitle', { delay: 200 });
+        sr.reveal('.avatar', { origin: 'right', delay: 200 });
         
         sr.reveal('.technology', { interval: 100 });
         sr.reveal('.technology1', { interval: 200 });
         
         sr.reveal('section h3', { origin: 'left', distance: '30px' });
-        sr.reveal('.relative.pl-8', { interval: 200 }); // Experience & Education items
-        sr.reveal('.bg-white.p-8.rounded-2xl', { interval: 100 }); // Achievements
+        sr.reveal('.relative.pl-8', { interval: 150 }); 
+        sr.reveal('.bg-white\\/10', { interval: 100 }); // Achievements & Cards
     </script>
   </body>
 </html>
